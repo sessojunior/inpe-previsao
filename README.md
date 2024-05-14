@@ -24,3 +24,8 @@ Foi baixado para ser utilizado neste projeto as seguintes bibliotecas:
 - [FontAwesome](https://fontawesome.com/icons) (Ícones)
 - [Poppins](https://fonts.google.com/specimen/Poppins) (Google Fonts)
 - [HTMX](https://htmx.org/)
+
+Uma pré-visualização da página seria esta:
+
+![Dashboard](./public/img/screenshot-1.png)
+![Dashboard](./public/img/screenshot-2.png)
