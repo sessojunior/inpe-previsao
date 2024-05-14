@@ -8,21 +8,13 @@
     }); %>
 
   <body>
-    <aside>
+    <%- include("../layouts/aside", { active: "previsao" }); %>
 
-    </aside>
-    <header>
+    <%- include("../layouts/header"); %>
 
-    </header>
-    <main>
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <p><i class="fa-solid fa-bell"></i></p>
-    </main>
-    <footer>
+    <%- include("../partials/home"); %>
 
-    </footer>
+    <%- include("../layouts/footer"); %>
   </body>
 
 </html>

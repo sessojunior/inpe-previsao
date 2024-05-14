@@ -21,6 +21,6 @@ Configurar o Tailwind e depois o arquivo _./tailwind.config.js_:
 
 Foi baixado para ser utilizado neste projeto as seguintes bibliotecas:
 
-- [FontAwesome](https://fontawesome.com/)
+- [FontAwesome](https://fontawesome.com/icons) (Ícones)
 - [Poppins](https://fonts.google.com/specimen/Poppins) (Google Fonts)
 - [HTMX](https://htmx.org/)
