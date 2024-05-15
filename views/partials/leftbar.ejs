@@ -1,6 +1,6 @@
 <section class="w-[360px] h-[calc(100vh-80px)] bg-[#F4FCFF] border-r border-[#82DCFF]">
   <!-- Header -->
-  <div class="h-14 flex justify-between pl-6 pr-3 bg-[#A8E7FF] border-b border-[#82DCFF]">
+  <section class="h-14 flex justify-between pl-6 pr-3 bg-[#A8E7FF] border-b border-[#82DCFF]">
     <div class="h-full flex items-center gap-2">
       <span class="inline-block text-sm text-[#2864AE]">Região</span>
       <span class="inline-block text-[#2864AE] text-md"><i class="fa-solid fa-chevron-right"></i></span>
@@ -10,134 +10,291 @@
       <span class="inline-block text-xs text-[#2864AE]">Ver opções</span>
       <a href="#" class="flex flex-shrink-0 justify-center items-center w-8 h-8  text-[#2864AE] hover:bg-[#2864AE] hover:text-white text-md p-2 rounded-full transition-all duration-500"><i class="fa-solid fa-chevron-right"></i></a>
     </div>
-  </div>
+  </section>
   <!-- Content -->
-  <div class="py-5 border-b border-[#82DCFF]">
-    <div class="px-6">
-      <h2 class="text-black font-medium">Selecione um produto</h2>
-      <p class="text-[#676767] text-xs">Lower Dynamics: MSLP Norm. Anomaly (5-day)</p>
+  <section class="scroll multiple rocketScroll" id="rocketScroll0">
+    <div class="overflow-y-auto h-[calc(100vh-136px)] scrollDiv">
+      <div class="scrollContent">
+        <!-- Products -->
+        <section class="py-5 border-b border-[#82DCFF]">
+          <div class="px-6">
+            <h2 class="text-black font-medium">Selecione um produto</h2>
+            <p class="text-[#676767] text-xs">Lower Dynamics: MSLP Norm. Anomaly (5-day)</p>
+          </div>
+          <div class="pt-5">
+            <ul>
+              <li>
+                <a href="#" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                  <span class="font-medium">Precip/Moisture</span>
+                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                </a>
+              </li>
+              <li>
+                <details open class="group">
+                  <summary class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex items-center cursor-pointer">
+                    <span class="text-md mr-1.5 rotate-0 transform group-open:rotate-180 group-open:mr-1.5 transition-all duration-300"><i class="fa-solid fa-chevron-down"></i></span>
+                    <span class="font-medium">Lower Dynamics</span>
+                  </summary>
+                  <ul>
+                    <li>
+                      <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">850mb Height & Wind</span>
+                        <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">MSLP & 10m Wind</span>
+                        <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href=" #" class="px-6 h-9 bg-[#D6F3FF] hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">Significant Wave Height</span>
+                        <span class="text-[#2864AE] text-lg"><i class="fa-solid fa-eye"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">Wave Period</span>
+                        <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                      </a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details class="group">
+                  <summary class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex items-center cursor-pointer">
+                    <span class="text-md mr-1.5 rotate-0 transform group-open:rotate-180 group-open:mr-1.5 transition-all duration-300"><i class="fa-solid fa-chevron-down"></i></span>
+                    <span class="font-medium">Upper Dynamics</span>
+                  </summary>
+                  <ul>
+                    <li>
+                      <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">250mb Wind</span>
+                        <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">500mb Height Anomaly</span>
+                        <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">Z500, Vort, & Wind</span>
+                        <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">500mb Height & MSLP</span>
+                        <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">Simulated IR Satellite</span>
+                        <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                      </a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details class="group">
+                  <summary class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex items-center cursor-pointer">
+                    <span class="text-md mr-1.5 rotate-0 transform group-open:rotate-180 group-open:mr-1.5 transition-all duration-300"><i class="fa-solid fa-chevron-down"></i></span>
+                    <span class="font-medium">Thermodynamics</span>
+                  </summary>
+                  <ul>
+                    <li>
+                      <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">850mb Temperature, Wind, and MSLP</span>
+                        <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">850mb Temp Anomaly</span>
+                        <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">2m Temperature (shaded)</span>
+                        <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
+                        <span class="pl-5 font-thin text-[#676767]">2m Temp Anomaly</span>
+                        <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
+                      </a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Products -->
+        <section class="py-5 border-b border-[#82DCFF]">
+          <div class="px-6">
+            <h2 class="text-black font-medium">Selecione o dia</h2>
+            <p class="text-[#676767] text-xs">Quinta-feira, 29 de agosto de 2024</p>
+          </div>
+          <div class="pt-5">
+            <ul class="px-6 flex flex-row gap-1">
+              <li>
+                <a href="#" class="flex flex-col items-center w-10 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-[10px] uppercase font-thin block">Ago</span>
+                  <span class="text-md font-bold block">27</span>
+                  <span class="text-[10px] uppercase font-thin block">Ter</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-10 py-2 rounded-md bg-[#3D73B6] text-white hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-[10px] uppercase font-thin block">Ago</span>
+                  <span class="text-md font-bold block">28</span>
+                  <span class="text-[10px] uppercase font-thin block">Qua</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-10 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-[10px] uppercase font-thin block">Ago</span>
+                  <span class="text-md font-bold block">29</span>
+                  <span class="text-[10px] uppercase font-thin block">Qui</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-10 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-[10px] uppercase font-thin block">Ago</span>
+                  <span class="text-md font-bold block">30</span>
+                  <span class="text-[10px] uppercase font-thin block">Sex</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-10 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-[10px] uppercase font-thin block">Ago</span>
+                  <span class="text-md font-bold block">31</span>
+                  <span class="text-[10px] uppercase font-thin block">Sáb</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-10 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-[10px] uppercase font-thin block">Set</span>
+                  <span class="text-md font-bold block">01</span>
+                  <span class="text-[10px] uppercase font-thin block">Dom</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-10 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-[10px] uppercase font-thin block">Set</span>
+                  <span class="text-md font-bold block">02</span>
+                  <span class="text-[10px] uppercase font-thin block">Seg</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Turns -->
+        <section class="py-5 border-b border-[#82DCFF]">
+          <div class="px-6">
+            <h2 class="text-black font-medium">Selecione a rodada</h2>
+            <p class="text-[#676767] text-xs">Rodada das 12z</p>
+          </div>
+          <div class="pt-5">
+            <ul class="px-6 flex flex-row gap-1">
+              <li>
+                <a href="#" class="flex flex-col items-center w-10 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">00</span>
+                  <span class="text-[10px] uppercase font-thin block">z</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-10 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">06</span>
+                  <span class="text-[10px] uppercase font-thin block">z</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-10 py-2 rounded-md bg-[#3D73B6] text-white hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">12</span>
+                  <span class="text-[10px] uppercase font-thin block">z</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-10 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">18</span>
+                  <span class="text-[10px] uppercase font-thin block">z</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Time -->
+        <section class="py-5 border-b border-[#82DCFF]">
+          <div class="px-6">
+            <h2 class="text-black font-medium">Selecione a previsão por hora</h2>
+            <p class="text-[#676767] text-xs">Forecast Time (Local): (+72 hs) 09:00, 12 Maio</p>
+          </div>
+          <div class="pt-5">
+            <ul class="px-6 flex flex-row flex-wrap gap-1">
+              <li>
+                <a href="#" class="flex flex-col items-center w-12 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">024</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-12 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">030</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-12 py-2 rounded-md bg-[#3D73B6] text-white hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">036</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-12 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">042</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-12 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">048</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-12 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">054</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-12 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">060</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-12 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">066</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex flex-col items-center w-12 py-2 rounded-md hover:bg-[#3D73B6] hover:text-white">
+                  <span class="text-md font-bold block">072</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="py-5 pl-6">
+          <img src="./img/govbr.png" alt="Governo Federal">
+        </div>
+      </div>
     </div>
-
-    <div class="pt-5">
-      <ul>
-        <li>
-          <a href="#" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-            <span class="font-medium">Precip/Moisture</span>
-            <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-          </a>
-        </li>
-        <li>
-          <details open class="group">
-            <summary class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex items-center cursor-pointer">
-              <span class="text-md mr-1.5 rotate-0 transform group-open:rotate-180 group-open:mr-1.5 transition-all duration-300"><i class="fa-solid fa-chevron-down"></i></span>
-              <span class="font-medium">Lower Dynamics</span>
-            </summary>
-            <ul>
-              <li>
-                <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">850mb Height & Wind</span>
-                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">MSLP & 10m Wind</span>
-                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href=" #" class="px-6 h-9 bg-[#D6F3FF] hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">Significant Wave Height</span>
-                  <span class="text-[#2864AE] text-lg"><i class="fa-solid fa-eye"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">Wave Period</span>
-                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-                </a>
-              </li>
-            </ul>
-          </details>
-        </li>
-        <li>
-          <details class="group">
-            <summary class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex items-center cursor-pointer">
-              <span class="text-md mr-1.5 rotate-0 transform group-open:rotate-180 group-open:mr-1.5 transition-all duration-300"><i class="fa-solid fa-chevron-down"></i></span>
-              <span class="font-medium">Upper Dynamics</span>
-            </summary>
-            <ul>
-              <li>
-                <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">250mb Wind</span>
-                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">500mb Height Anomaly</span>
-                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">Z500, Vort, & Wind</span>
-                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">500mb Height & MSLP</span>
-                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">Simulated IR Satellite</span>
-                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-                </a>
-              </li>
-            </ul>
-          </details>
-        </li>
-        <li>
-          <details class="group">
-            <summary class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex items-center cursor-pointer">
-              <span class="text-md mr-1.5 rotate-0 transform group-open:rotate-180 group-open:mr-1.5 transition-all duration-300"><i class="fa-solid fa-chevron-down"></i></span>
-              <span class="font-medium">Thermodynamics</span>
-            </summary>
-            <ul>
-              <li>
-                <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">850mb Temperature, Wind, and MSLP</span>
-                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">850mb Temp Anomaly</span>
-                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">2m Temperature (shaded)</span>
-                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href=" #" class="px-6 h-9 hover:bg-[#D6F3FF] text-sm flex justify-between items-center group">
-                  <span class="pl-5 font-thin text-[#676767]">2m Temp Anomaly</span>
-                  <span class="text-[#A8E7FF] text-lg"><i class="fa-solid fa-eye-slash"></i></span>
-                </a>
-              </li>
-            </ul>
-          </details>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="pt-5 pl-6">
-    <img src="./img/govbr.png" alt="Governo Federal">
-  </div>
+  </section>
 </section>
