@@ -8,8 +8,11 @@ app.set("views", "./views");
 
 app.use(express.static("./public"));
 
-app.get("/", (req, res) => {
+app.get(["/", "/previsao"], (req, res) => {
 	res.render("./pages");
+});
+app.get("/nowcasting", (req, res) => {
+	res.render("./pages/nowcasting");
 });
 
 app.listen(port, () => {
