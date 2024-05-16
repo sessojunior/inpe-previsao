@@ -1,1 +1,92 @@
-<section class="absolute top-0 left-[360px] m-8 w-[360px] h-[calc(100vh-144px)] border border-[#82DCFF]">Toolbar</section>
+<section class="absolute top-0 left-[360px] m-8 w-[360px] h-[calc(100vh-144px)] border border-[#82DCFF] rounded-md z-50">
+  <!-- Header -->
+  <section class="h-14 flex justify-between pl-6 pr-3 bg-[#A8E7FF] border-b border-[#82DCFF] rounded-t-md">
+    <div class="h-full flex items-center gap-2">
+      <span class="inline-block text-sm text-[#2864AE] font-medium">Alterar opções</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <a href="#" class="flex flex-shrink-0 justify-center items-center w-8 h-8  text-[#2864AE] hover:bg-[#2864AE] hover:text-white text-md p-2 rounded-full transition-all duration-500"><i class="fa-solid fa-xmark"></i></a>
+    </div>
+  </section>
+  <!-- Content -->
+  <section class="overflow-y-auto h-[calc(100%-56px)] py-5 bg-[#F4FCFF]">
+    <div class="px-6">
+      <h2 class="text-black font-medium">Selecione a região</h2>
+      <p class="text-[#676767] text-xs">Região Norte</p>
+    </div>
+    <div class="pt-5 pb-1">
+      <ul class="flex flex-col gap-3">
+        <li>
+          <a href="#" class="relative mx-6 h-40 bg-white hover:bg-[#D6F3FF] flex justify-between items-start border border-[#82DCFF] rounded-md group">
+            <div class="pt-3 pl-4">
+              <span class="block font-medium text-sm">América do Sul</span>
+              <span class="font-thin text-xs text-[#676767] hidden">Região selecionada</span>
+            </div>
+            <span class="absolute top-0 right-0 py-2 px-5"><img src="./img/regiao-america-do-sul.png" alt="Brasil" class="h-36 w-auto"></span>
+            <span class="absolute top-0 right-0 py-2 px-3 text-[#A8E7FF] text-lg"><i class="fa-solid fa-thumbtack"></i></span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="relative mx-6 h-40 bg-white hover:bg-[#D6F3FF] flex justify-between items-start border border-[#82DCFF] rounded-md group">
+            <div class="pt-3 pl-4">
+              <span class="block font-medium text-sm">Brasil</span>
+              <span class="font-thin text-xs text-[#676767] hidden">Região selecionada</span>
+            </div>
+            <span class="absolute top-0 right-0 py-2 px-0"><img src="./img/regiao-brasil.png" alt="Brasil" class="h-36 w-auto"></span>
+            <span class="absolute top-0 right-0 py-2 px-3 text-[#A8E7FF] text-lg"><i class="fa-solid fa-thumbtack"></i></span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="relative mx-6 h-40 bg-[#D6F3FF] hover:bg-[#D6F3FF] flex justify-between items-start border border-[#2864AE] rounded-md group">
+            <div class="pt-3 pl-4">
+              <span class="block font-medium text-sm">Norte</span>
+              <span class="block font-thin text-xs text-[#676767]">Região selecionada</span>
+            </div>
+            <span class="absolute top-0 right-0 py-2 px-0"><img src="./img/regiao-norte.png" alt="Brasil" class="h-36 w-auto"></span>
+            <span class="absolute top-0 right-0 py-2 px-3 text-[#2864AE] text-lg"><i class="fa-solid fa-thumbtack"></i></span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="relative mx-6 h-40 bg-white hover:bg-[#D6F3FF] flex justify-between items-start border border-[#82DCFF] rounded-md group">
+            <div class="pt-3 pl-4">
+              <span class="block font-medium text-sm">Nordeste</span>
+              <span class="font-thin text-xs text-[#676767] hidden">Região selecionada</span>
+            </div>
+            <span class="absolute top-0 right-0 py-2 px-0"><img src="./img/regiao-nordeste.png" alt="Brasil" class="h-36 w-auto"></span>
+            <span class="absolute top-0 right-0 py-2 px-3 text-[#A8E7FF] text-lg"><i class="fa-solid fa-thumbtack"></i></span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="relative mx-6 h-40 bg-white hover:bg-[#D6F3FF] flex justify-between items-start border border-[#82DCFF] rounded-md group">
+            <div class="pt-3 pl-4">
+              <span class="block font-medium text-sm">Centro-oeste</span>
+              <span class="font-thin text-xs text-[#676767] hidden">Região selecionada</span>
+            </div>
+            <span class="absolute top-0 right-0 py-2 px-0"><img src="./img/regiao-centro-oeste.png" alt="Brasil" class="h-36 w-auto"></span>
+            <span class="absolute top-0 right-0 py-2 px-3 text-[#A8E7FF] text-lg"><i class="fa-solid fa-thumbtack"></i></span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="relative mx-6 h-40 bg-white hover:bg-[#D6F3FF] flex justify-between items-start border border-[#82DCFF] rounded-md group">
+            <div class="pt-3 pl-4">
+              <span class="block font-medium text-sm">Sudeste</span>
+              <span class="font-thin text-xs text-[#676767] hidden">Região selecionada</span>
+            </div>
+            <span class="absolute top-0 right-0 py-2 px-0"><img src="./img/regiao-sudeste.png" alt="Brasil" class="h-36 w-auto"></span>
+            <span class="absolute top-0 right-0 py-2 px-3 text-[#A8E7FF] text-lg"><i class="fa-solid fa-thumbtack"></i></span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="relative mx-6 h-40 bg-white hover:bg-[#D6F3FF] flex justify-between items-start border border-[#82DCFF] rounded-md group">
+            <div class="pt-3 pl-4">
+              <span class="block font-medium text-sm">Sul</span>
+              <span class="font-thin text-xs text-[#676767] hidden">Região selecionada</span>
+            </div>
+            <span class="absolute top-0 right-0 py-2 px-0"><img src="./img/regiao-sul.png" alt="Brasil" class="h-36 w-auto"></span>
+            <span class="absolute top-0 right-0 py-2 px-3 text-[#A8E7FF] text-lg"><i class="fa-solid fa-thumbtack"></i></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</section>
